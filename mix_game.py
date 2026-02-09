@@ -3,7 +3,7 @@ print('------------------------------------------------------')
 print('---ИГРА УГАДАЙ ЧИСЛО---')
 print('угадай число от 1 до 100 за 5 попыток')
 print('------------------------------------------------------')
-secret_number = random.randint(1, 100)
+secret_number = random.randint(1, 50)
 attempts_left = 5
 while True:
     guess_num = int(input('введи число - '))
@@ -44,3 +44,4 @@ while True:
     else:
 
         print('ошибка')
+
